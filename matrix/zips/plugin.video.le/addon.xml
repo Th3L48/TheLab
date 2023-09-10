@@ -1,7 +1,7 @@
 <addon id="plugin.video.le"
     name="   [COLORdeepskyblue]Loonatics [COLORblue]Empire[/COLOR]"
     provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]"
-    version="23.4.30">
+    version="23.9.10">
     <requires>
         <import addon="context.le" />
         <import addon="script.module.youraccounts" />
@@ -18,9 +18,6 @@
         <import addon="plugin.video.taptv" optional="true" />
         <import addon="plugin.video.lntv" optional="true" />
         <import addon="plugin.video.rbtv" optional="true" />
-        <import addon="plugin.elementum.burst" version="0.0.71" optional="true" />
-        <import addon="plugin.video.elementum" version="0.1.86" optional="true" />
-        <import addon="context.elementum" version="0.0.10" optional="true" />
     </requires>
     <extension library="le.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
