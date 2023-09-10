@@ -1,8 +1,8 @@
 TheLab REPO 18 / 19 / 20 URL
-https://Th3L48.github.io/TheLab/
+https://th3l48.github.io/TheLab/
 
 TMDBHELPER PLAYERS URL - (Place this url inside settings of TMDB Player)
-https://Th3L48.github.io/TheLab/TheLabTMDB-Players.zip
+https://th3l48.github.io/TheLab/TheLabTMDB-Players.zip
 
 Loonatics Empire (LE) Addon
 Password for ADULT / ADULT Cartoons: Th3L48
