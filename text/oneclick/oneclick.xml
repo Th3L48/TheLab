@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourself</layoutype>
+
+<dir>
+    <title>[COLOR deepskyblue]Free 1Click Movies [COLOR blue]# - E[/COLOR]</title>
+    <link>https://thelab.ratpack.appboxes.co/text/oneclick/1clicka-e.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/oneclick/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/oneclick/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>[COLOR deepskyblue]Free 1Click Movies [COLOR blue]F - K[/COLOR]</title>
+    <link>https://thelab.ratpack.appboxes.co/text/oneclick/1clickf-k.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/oneclick/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/oneclick/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>[COLOR deepskyblue]Free 1Click Movies [COLOR blue]L - P[/COLOR]</title>
+    <link>https://thelab.ratpack.appboxes.co/text/oneclick/1clickl-p.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/oneclick/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/oneclick/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>[COLOR deepskyblue]Free 1Click Movies [COLOR blue]Q - T[/COLOR]</title>
+    <link>https://thelab.ratpack.appboxes.co/text/oneclick/1clickq-t.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/oneclick/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/oneclick/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <title>[COLOR deepskyblue]Free 1Click Movies [COLOR blue]U - Z[/COLOR]</title>
+    <link>https://thelab.ratpack.appboxes.co/text/oneclick/1clicku-z.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/oneclick/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/oneclick/fanart.jpg</fanart>
+</dir>
+
+</xml>

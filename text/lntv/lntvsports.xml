@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourself</layoutype>
+
+<plugin>
+    <title>LNTv Sports</title>
+    <link>plugin://plugin.video.lntv/list_channels/1</link>
+    <thumbnail>special://home/addons/plugin.video.lntv\livesports.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.lntv/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+    <title>TapTv Sports</title>
+    <link>plugin://plugin.video.taptv/list_channels/5</link>
+    <thumbnail>special://home/addons/plugin.video.taptv\livesports.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.taptv/fanart.jpg</fanart>
+</plugin>

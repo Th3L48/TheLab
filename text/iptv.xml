@@ -1,0 +1,115 @@
+<item>
+<title>DL</title>
+<link>$doregex[makelist]</link>
+    <thumbnail>special://home/addons/plugin.video.hmm/iptv.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.hmm/fanart.png</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[makelist.param2]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    import re
+    from resources.lib.modules import control
+    if not control.infoLabel('Container.PluginName') == 'plugin.video.hmm': return
+    page_data = page_data.split('EPL Standings', 1)[-1]
+    e = re.findall('item"><a href="([^"]*)(?:.*?g>)([^<]*)', page_data)
+    sort = [('https://daddylive.fun'+i[0],i[1]) for i in e]
+    return sorted(sort,key=lambda sphynx: (sphynx[1]))
+]]></expres>
+<page>https://daddylive.me/24-hours-channels.php</page>
+</regex>
+<regex>
+  <name>makelist2</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    url = client.external('[makelist.param1]')
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>TV24/7</title>
+<link>$doregex[makelist]</link>
+    <thumbnail>special://home/addons/plugin.video.hmm/iptv.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.hmm/fanart.png</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[COLOR orange][makelist.param3][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param1]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import control
+    import re
+    if not control.infoLabel('Container.PluginName') == 'plugin.video.hmm': return
+    r = re.findall('(?s)sup">live(?:.*?c=)"([^"]*)(?:.*?f=)"([^"]*)">([^<]*)', page_data)
+    return sorted(r,key=lambda sphynx: (sphynx[1]))
+]]></expres>
+<page>http://tv247.us/all-channels/</page>
+</regex>
+<regex>
+  <name>makelist2</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client
+    url = client.external('[makelist.param2]')
+    return url
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>USTVGO</title>
+<link>$doregex[makelist]</link>
+    <thumbnail>special://home/addons/plugin.video.hmm/iptv.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.hmm/fanart.png</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+        <title>[COLOR orange][makelist.param2][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+        <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+    from resources.lib.modules import client,control
+    import re
+    if not control.infoLabel('Container.PluginName') == 'plugin.video.hmm': return
+    u = ''
+    u += client.request('https://ustvgo.tv/category/sports/')
+    u += client.request('https://ustvgo.tv/category/entertainment/')
+    u += client.request('https://ustvgo.tv/category/entertainment/page/2/')
+    u += client.request('https://ustvgo.tv/category/entertainment/page/3/')
+    u += client.request('https://ustvgo.tv/category/kids/')
+    u += client.request('https://ustvgo.tv/category/news/')
+    r = re.findall('(?s)featured-image">.*?f="([^"]*).*?e="([^"]*)(?:.*?c=)"(?:.*?c=)"([^"]*)', u)
+    sort = [(i[0],i[1].replace('#038;',''),i[2]) for i in r]
+    return sorted(sort,key=lambda sphynx: (sphynx[1]))
+]]></expres>
+<page>https://ustvgo.tv</page>
+</regex>
+<regex>
+  <name>makelist2</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist.param1]'):
+    from resources.lib.modules import client
+    import re,requests
+    r = client.request(url)
+    q = re.findall(r'\?stream=([^\']*)', r)[0]
+    s = requests.get('https://ustvgo.tv/player.php?stream=' + q, headers={'Referer':url}).text
+    t = re.findall('var hls_src=\'([^\']*)', s)[0]
+    return t
+]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>

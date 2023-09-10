@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourself</layoutype>
+
+<plugin>
+    <title>TapTv</title>
+    <link>plugin://plugin.video.taptv/</link>
+    <thumbnail>special://home/addons/plugin.video.taptv/icon.png</thumbnail>
+    <fanart>special://home/addons/plugin.video.taptv/fanart.jpg</fanart>
+</plugin>

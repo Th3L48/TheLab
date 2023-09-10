@@ -1,0 +1,52 @@
+<addon id="plugin.video.le"
+    name="   [COLORdeepskyblue]Loonatics [COLORblue]Empire[/COLOR]"
+    provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]"
+    version="23.4.30">
+    <requires>
+        <import addon="context.le" />
+        <import addon="script.module.youraccounts" />
+        <import addon="script.module.lescrapers" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.addon.signals" optional="true" />
+        <import addon="plugin.video.swifttv" optional="true" />
+        <import addon="plugin.video.taptv" optional="true" />
+        <import addon="plugin.video.lntv" optional="true" />
+        <import addon="plugin.video.rbtv" optional="true" />
+        <import addon="plugin.elementum.burst" version="0.0.71" optional="true" />
+        <import addon="plugin.video.elementum" version="0.1.86" optional="true" />
+        <import addon="context.elementum" version="0.0.10" optional="true" />
+    </requires>
+    <extension library="le.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension library="resources/lib/" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">[COLORdeepskyblue]Loonatics [COLORblue]Empire[/COLOR] [COLORwhite]Movies-TV Shows-Trakt-IMDB-TMDB[/COLOR]</summary>
+        <description>[COLORdeepskyblue]Loonatics [COLORblue]Empire[/COLOR] [COLORwhite]Movies-TV Shows-Trakt-IMDB-TMDB[/COLOR]</description>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <forum />
+        <website />
+        <source />
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshots/screenshot000.png</screenshot>
+            <screenshot>resources/screenshots/screenshot001.png</screenshot>
+            <screenshot>resources/screenshots/screenshot002.png</screenshot>
+            <screenshot>resources/screenshots/screenshot003.png</screenshot>
+            <screenshot>resources/screenshots/screenshot004.png</screenshot>
+        </assets>
+        <news />
+    </extension>
+
+</addon>

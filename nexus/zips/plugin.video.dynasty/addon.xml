@@ -1,0 +1,48 @@
+<addon id="plugin.video.dynasty"
+       name="[COLORgold] Dynasty[/COLOR]"
+       version="23.4.30"
+       provider-name="[COLORred]• [COLORcrimson]Tech [COLORsalmon]E [COLORcrimson]Coyote [COLORred]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="context.dynasty" />
+        <import addon="script.module.youraccounts" />
+        <import addon="script.module.yourscrapers" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.audrey" optional="true" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="plugin.video.swifttv" optional="true" />
+        <import addon="plugin.video.taptv" optional="true" />
+        <import addon="plugin.video.lntv" optional="true" />
+        <import addon="plugin.video.rbtv" optional="true" />
+        <import addon="context.trailer.play" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+		<import addon="plugin.video.cng" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="dynasty.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/lib/" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Dynasty - We do not host any of the contents streamed</summary>
+        <description lang="en">Dynasty[CR] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website></website>
+        <source></source>
+        <disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+            <screenshot></screenshot>
+        </assets>
+        <news></news>
+    </extension>
+</addon>

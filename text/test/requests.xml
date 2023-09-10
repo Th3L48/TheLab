@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourSelf</layoutype>
+
+<xml>
+
+<item>
+<title>Test</title>
+<link>
+<sublink name= Free>Test</sublink>
+<sublink name= 720p>Test</sublink>
+<sublink name= 1080p>Test</sublink>
+<sublink name= 4k>Test</sublink>
+<sublink name= Trailer>https://www.youtube.com/watch?v=</sublink>
+</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+</xml>

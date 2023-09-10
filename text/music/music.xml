@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layoutype>GoFuckYourself</layoutype>
+
+<plugin>
+    <title>Latest Charts</title>
+    <link>plugin://plugin.video.youtube/playlist/PLywWGW4ILrvpqqkgKRV8jpZMaUPohQipP/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>UK Top 40 Songs This Week</title>
+    <link>plugin://plugin.video.youtube/playlist/PL3oW2tjiIxvSNtMGRTcmla1KBpFkyeiN2/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>US Top 40 Songs This Week</title>
+    <link>plugin://plugin.video.youtube/playlist/PLDIoUOhQQPlU2NpvlGKTsQRoCMHTUCLMf/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<dir>
+    <name>Ambient Sounds</name>
+    <link>https://thelab.ratpack.appboxes.co/text/extra/ambients.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+</dir>
+
+<dir>
+<name>Now Music</name>
+<link>https://thelab.ratpack.appboxes.co/text/extra/nowmusic.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <name>Top 100</name>
+    <link>https://thelab.ratpack.appboxes.co/text/extra/mixed.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+</dir>
+
+<plugin>
+    <title>Pop Music</title>
+    <link>plugin://plugin.video.youtube/playlist/PLMC9KNkIncKtPzgY-5rmhvj7fax8fdxoj/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Latin Music</title>
+    <link>plugin://plugin.video.youtube/playlist/PLGXarP4-gkbYSnVY-kqjqtFZksk9KvF5T/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Latina Hits</title>
+    <link>plugin://plugin.video.youtube/playlist/PLkqz3S84Tw-QoDzNr9VvMXxUTQ7TkANO_/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>More Latina Hits</title>
+    <link>plugin://plugin.video.youtube/playlist/PLq3UZa7STrbqXTTC5wJ9KArpKERhZOJZT/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Sexy Latin Videos</title>
+    <link>plugin://plugin.video.youtube/playlist/PLtUprbCEtrHlQoIGTgalJ7jbaSBI9Eq4r/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Country Music</title>
+    <link>plugin://plugin.video.youtube/playlist/PL3oW2tjiIxvRDymF6SFf7t4xfDbtRQxlt/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Best Overall Country</title>
+    <link>plugin://plugin.video.youtube/playlist/PLsWYhntNoL3hW_J9Ulrb-3s1iFaVQb1Y8/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>R / B</title>
+    <link>plugin://plugin.video.youtube/playlist/PLAKw47hquUsIWArq-QR2v_wR-JZIjASWv/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Paradise Cafe</title>
+    <link>plugin://plugin.video.youtube/playlist/PLe1CT6SJJchrBe0eK1KC5xQK7CUWarmeE/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>Jazz Vocals</title>
+    <link>plugin://plugin.video.youtube/playlist/PLKyN0mtyLUnPCbkd5G7HOxF9ytrhO1kbX/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>100 Years of Jazz</title>
+    <link>plugin://plugin.video.youtube/playlist/PLAKw47hquUsIWArq-QR2v_wR-JZIjASWv/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<dir>
+    <name>Artists</name>
+    <link>https://thelab.ratpack.appboxes.co/text/extra/artist.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+</dir>
+
+<dir>
+    <name>Karaoke Music</name>
+    <link>https://thelab.ratpack.appboxes.co/text/extra/karaoke.xml</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+</dir>
+
+<plugin>
+    <title>Love Music</title>
+    <link>plugin://plugin.video.youtube/playlist/PL64G6j8ePNureM8YCKy5nRFyzYf8I2noy/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>
+
+<plugin>
+    <title>4K Music Videos</title>
+    <link>plugin://plugin.video.youtube/playlist/PLoj6YVKua1uJmN0GxnD7gRoASjnsS_ATD/</link>
+    <thumbnail>https://thelab.ratpack.appboxes.co/text/extra/icon.png</thumbnail>
+    <fanart>https://thelab.ratpack.appboxes.co/text/extra/fanart.jpg</fanart>
+    <content></content>
+</plugin>

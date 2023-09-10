@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.loonatics.full" version="21.10.15" name="[COLORspringgreen]• [COLORpalegreen]Loonatics [COLORlime]Full Video - Sound [COLORspringgreen]•[/COLOR]" provider-name="[COLORgreen]• [COLORspringgreen]Tech [COLORpalegreen]E [COLORlime]Coyote [COLORgreen]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0" />
+        <import addon="script.skinshortcuts" version="1.0.10" />
+        <import addon="service.library.data.provider" version="0.0.7" />
+        <import addon="resource.images.studios.white" version="0.0.1" />
+        <import addon="resource.images.recordlabels.white" version="0.0.1" />
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Modded by Tech E. Coyote - Thx LockDown</summary>
+        <description lang="en_GB">Modded by Tech E. Coyote - Thx LockDown</description>
+        <platform>all</platform>
+        <license></license>
+        <forum>https:/</forum>
+        <website>https:/</website>
+        <source>https:/</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news></news>
+    </extension>
+</addon>

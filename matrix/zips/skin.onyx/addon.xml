@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.onyx"
+       name="Onyx Skin"
+       version="22.11.18"
+       provider-name="[COLORFF00FF00]Whiskey[/COLOR][COLORFFFF00FF]Demon[/COLOR] [COLORyellow]• [COLORgoldenrod]Tech [COLORgold]E [COLORkhaki]Coyote [COLORyellow]•[/COLOR]">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.0.10" />
+        <import addon="service.library.data.provider" version="0.0.7" />
+        <import addon="resource.images.studios.white" version="0.0.1" />
+        <import addon="resource.images.recordlabels.white" version="0.0.1" />
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="el_GR">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+        <platform>all</platform>
+        <license>CC BY-NC-SA 4.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=210069</forum>
+        <website>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</website>
+        <source>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+            <screenshot>resources/screenshots/</screenshot>
+        </assets>
+        <news>[I][COLOR FFFF9800]v8.0.1[/COLOR][/I][CR]- Use Weblate for translations (thanks gade01)[CR]- Fix Embuary error when navigating to a TV Show Season[CR]- Add a clean paused screen option to Video OSD settings[CR]- Re-add script.grab.fanart support[CR]- Fix missing sortby labels[CR]- Add status indicator settings for BigFan[CR]- Fix Rick Dangerous error[CR]- Default letter jump fixes[CR]- Tweak MyFlix info for Episodes[CR]- Fix auto hide OSD options duplicating in other settings[I][COLOR FFFF9800]v8.0.0[/COLOR][/I][CR]- New status indicators[CR]- Add verified from Kodi Repo image + Rework language flags[CR]- Cleanup overlays + Updated HD/SD/3D indicators[CR]- Fix lyrics being covered by background for normal lyrics[CR]- Add missing buttons to DialogAddonInfo and PVRInfo[CR]- Fix typo in set ratings for UK:PG[CR]- Fix 4K Widget cases not appearing[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I]</news>
+    </extension>
+</addon>
