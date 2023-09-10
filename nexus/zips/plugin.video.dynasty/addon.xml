@@ -1,6 +1,6 @@
 <addon id="plugin.video.dynasty"
        name="[COLORgold] Dynasty[/COLOR]"
-       version="23.4.30"
+       version="23.9.10"
        provider-name="[COLORred]• [COLORcrimson]Tech [COLORsalmon]E [COLORcrimson]Coyote [COLORred]•[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />

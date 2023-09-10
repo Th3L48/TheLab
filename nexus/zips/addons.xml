@@ -216,7 +216,7 @@
 <addon id="plugin.video.adina"
        name="Adina"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]"
-       version="22.5.13">
+       version="23.9.10">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />
@@ -294,7 +294,7 @@
 
 <addon id="plugin.video.cng"
        name="[COLORred]Click[/COLOR][COLORyellow]N[/COLOR][COLORgreen]Go[/COLOR]"
-       version="23.7.18"
+       version="23.7.29"
        provider-name="[COLORgoldenrod]FE[COLORgold]AR[COLORdarkkhaki]LE[COLORkhaki]SS[/COLOR] - [COLORcrimson]Tech [COLORsalmon]E [COLORred]Coyote[/COLOR]">
 	<requires>
 		<import addon="script.module.audrey" />
@@ -303,8 +303,8 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Click N Go - FREE Movie N TvShow 1Clicks</summary>
-		<description>Click N Go - FREE Movie N TvShow 1Clicks</description>
+		<summary lang="en">Click N Go - Debrid - Movie N TvShow 1Clicks</summary>
+		<description>Click N Go - Debrid - Movie N TvShow 1Clicks</description>
 		<platform>all</platform>
 		<language>en</language>
 		<email></email>
@@ -317,7 +317,7 @@
 
 <addon id="plugin.video.dynasty"
        name="[COLORgold] Dynasty[/COLOR]"
-       version="23.4.30"
+       version="23.9.10"
        provider-name="[COLORred]• [COLORcrimson]Tech [COLORsalmon]E [COLORcrimson]Coyote [COLORred]•[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -471,7 +471,7 @@
 
 <addon id="plugin.video.thelab"
        name="TheLab"
-       version="23.4.30"
+       version="23.9.10"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
     <requires>
         <import addon="script.module.resolveurl" />
@@ -511,7 +511,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.thelabjr" version="23.5.13" name="TheLabJr" provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E. [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]">
+<addon id="plugin.video.thelabjr" version="23.9.10" name="TheLabJr" provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E. [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -539,13 +539,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.0.2~alpha7" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.26~alpha2umb" provider-name="anxdpanic, bromix">
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" version="1.11.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="inputstream.adaptive" version="20.3.1"/>
         <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-        <import addon="script.module.infotagger" version="0.0.5"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
         <provides>video</provides>
@@ -554,13 +553,14 @@
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <news>
-[fix] error when filtering short videos
-[fix] fix playback |contrib: MoojMidge|
+[fix] Nexus compatibility with InfoTagVideo |contrib: jurialmunkey|
+[chg] make httpd /api url case insensitive due to skin choice of uppercase settings text
+[chg] use listitem property for Inputstream Adaptive headers instead of url piped on Nexus+
 [upd] Translations updated from Kodi Weblate
         </news>
         <assets>
-            <icon>resources/media/icon.png</icon>
-            <fanart>resources/media/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
         <platform>all</platform>
         <license>GPL-2.0-only</license>
@@ -642,43 +642,6 @@
     </extension>
 </addon>
 
-<addon id="repository.encryptic" name="EnCryptic Repository" provider-name="Fafo Family" version="1.1.36">
-  <extension point="xbmc.addon.repository" name="EnCryptic Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-	<dir>
-      <info compressed="false">https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml</info>
-      <checksum>https://repo.encrypticmh.appboxes.co/adds/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://repo.encrypticmh.appboxes.co/adds/zips/</datadir>
-	</dir>
-	<dir minversion="16.0.0" maxversion="18.9.9">
-		<info compressed="false">https://www.madhouse.appboxes.co/leia/zips/addons.xml</info>
-		<checksum>https://www.madhouse.appboxes.co/leia/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://www.madhouse.appboxes.co/leia/zips/</datadir>
-	</dir>
-	<dir minversion="18.9.9">
-		<info compressed="false">https://www.madhouse.appboxes.co/matrix/zips/addons.xml</info>
-		<checksum>https://www.madhouse.appboxes.co/matrix/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://www.madhouse.appboxes.co/matrix/zips/</datadir>
-	</dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en_GB">… You can't kill me 'cause I'm already inside you…</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets> 
-  </extension>
-</addon>
-
 <addon id="repository.gujal" name="Gujal Addons Repository" version="2.0.0" provider-name="gujal">
 	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
 		<dir>
@@ -731,80 +694,6 @@
     </extension>
 </addon>
 
-    <addon id="repository.Magnetic" name="Magnetic Repo" version="1.1.0a" provider-name="1-cool-guy">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Magnetic Repo">
-        	<dir>
-            <info compressed="false">https://magnetic.website/__zips/addons.xml</info>
-            <checksum>https://magnetic.website/__zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://magnetic.website/__zips/</datadir>
-            <hashes>false</hashes>
-            </dir>
-			<dir>
-		    <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            <hashes>false</hashes>
-			</dir>
-			<dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-            </dir>
-			<dir>
-            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-            </dir>
-            <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-            <hashes>false</hashes>
-            </dir>	
-			<dir>
-            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-        </dir>
-		<dir>
-    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-</dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Official Magnetic Repository</summary>
-            <description>Welcome to magnetic repo. Please enjoy</description>
-            <platform>all</platform>
-            <genre>movies,usa</genre>
-			<assets>
-			    <icon>icon.png</icon>
-			</assets>
-        </extension>
-    </addon>
-	
-<addon id="repository.palantir2" name="[COLOR gold]Repositorio Palantir 2[/COLOR]" version="2.0.2" provider-name="TierraMedia">
-    <extension point="xbmc.addon.repository" name="Palantir 2 official Repo">
-    	<dir minversion="18.9.0">
-    	    <info compressed="false">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-	    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-   		<description lang="en">[COLOR gold]Instala Palantir 2[/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.gif</fanart>
-        </assets>
-	</extension>
-</addon>
-
 <addon id="repository.resolveurl" name="ResolveURL Repository" provider-name="gujal" version="1.0.0">
   <extension point="xbmc.addon.repository" name="ResolveURL Repository">
     <dir>
@@ -851,38 +740,23 @@
 
 <addon id="repository.thelab"
        name="TheLab Repository"
-       version="23.7.25"
+       version="23.9.10"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]">
     <extension point="xbmc.addon.repository" name="TheLab Repository">
-        <dir minversion="20.0" maxversion="20.9.0"><!--TheLab Nexus Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/nexus/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/nexus/zips/</datadir>
+        <dir minversion="20.0"><!--TheLab Nexus Repo & Above-->
+            <info compressed="false">https://Th3L48.github.io/TheLab/nexus/zips/addons.xml</info>
+            <checksum>https://Th3L48.github.io/TheLab/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://Th3L48.github.io/TheLab/nexus/zips/</datadir>
         </dir>
         <dir minversion="19.0" maxversion="19.9.0"><!--TheLab Matrix Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/matrix/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/matrix/zips/</datadir>
+            <info compressed="false">https://Th3L48.github.io/TheLab/matrix/zips/addons.xml</info>
+            <checksum>https://Th3L48.github.io/TheLab/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://Th3L48.github.io/TheLab/matrix/zips/</datadir>
         </dir>
         <dir minversion="18.0" maxversion="18.9.0"><!--TheLab Leia Repo-->
-            <info compressed="false">https://thelab.ratpack.appboxes.co/leia/zips/addons.xml</info>
-            <checksum>https://thelab.ratpack.appboxes.co/leia/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://thelab.ratpack.appboxes.co/leia/zips/</datadir>
-        </dir>
-		<dir minversion="16.0.0" maxversion="18.9.9"><!--Enclave Leia-->
-			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml</info>
-			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/leia/zips/</datadir>
-		</dir>
-		<dir minversion="18.9.9"><!--Enclave Matix & above-->
-			<info compressed="false">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml</info>
-			<checksum>https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://enclave.ratpack.appboxes.co/Enclave%20Addon%20Creator/matrix/zips/</datadir>
-		</dir>
-        <dir><!--Jen Stuff-->
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <info compressed="false">https://Th3L48.github.io/TheLab/leia/zips/addons.xml</info>
+            <checksum>https://Th3L48.github.io/TheLab/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://Th3L48.github.io/TheLab/leia/zips/</datadir>
         </dir>
         <dir><!--ResolveUrl-->
             <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -899,51 +773,6 @@
         <fanart>fanart.jpg</fanart>
     </assets>
     </extension>
-</addon>
-
-<addon id="repository.Wherethemonsterslive" name="Where The Monsters Live Repository" version="1.10" provider-name="Wolfey B">
-	<extension point="xbmc.addon.repository" name="Where The Monsters Live Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-	<dir minversion="16.0.0" maxversion="18.9.9">
-		<info compressed="false">http://www.midian.appboxes.co/wolfyB/files/addons.xml</info>
-		<checksum>http://www.midian.appboxes.co/wolfyB/files/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.midian.appboxes.co/wolfyB/files/</datadir>
-	</dir>
-	<dir minversion="18.9.9">
-		<info compressed="false">http://www.midian.appboxes.co/wolfyB/files/addons.xml</info>
-		<checksum>http://www.midian.appboxes.co/wolfyB/files/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.midian.appboxes.co/wolfyB/files/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">http://www.midian.appboxes.co/wolfyB/files/addons.xml</info>
-		<checksum>http://www.midian.appboxes.co/wolfyB/files/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.midian.appboxes.co/wolfyB/files/</datadir>
-	</dir>
-
- <dir>
-    <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-  </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-    <platform>all</platform>
-    <description lang="en_GB">Where The Monsters Live</description>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news></news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart></fanart>
-    </assets> 
-  </extension>
 </addon>
 
 <addon id="script.adinaart"
@@ -1080,7 +909,6 @@
     <news></news>
     </extension>
 </addon>
-
 
 <addon id="script.module.youraccounts"
        name="Your Accounts"
@@ -1300,6 +1128,5 @@
   <extension-point id="plugin" schema="pluginsource.xsd"/>
   <extension-point id="context.item" schema="contextitem.xsd"/>
 </addon>
-
 
 </addons>

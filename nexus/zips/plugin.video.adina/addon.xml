@@ -1,7 +1,7 @@
 <addon id="plugin.video.adina"
        name="Adina"
        provider-name="[COLORpurple]• [COLORorchid]Tech [COLORdarkorchid]E [COLORplum]Coyote [COLORpurple]•[/COLOR]"
-       version="22.5.13">
+       version="23.9.10">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />

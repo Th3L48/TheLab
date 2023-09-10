@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.thelabjr" version="23.5.13" name="TheLabJr" provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E. [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]">
+<addon id="plugin.video.thelabjr" version="23.9.10" name="TheLabJr" provider-name="[COLORgreen]&#8226; [COLORspringgreen]Tech [COLORpalegreen]E. [COLORlime]Coyote [COLORgreen]&#8226;[/COLOR]">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
