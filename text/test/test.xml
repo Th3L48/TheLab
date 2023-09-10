@@ -7,16 +7,16 @@
 
 <dir>
     <title>Nothing To See Here ...</title>
-    <link>https://thelab.ratpack.appboxes.co/text/test/test.m3u8</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <link>https://Th3L48.github.io/TheLab/text/test/test.m3u8</link>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>Requests - Movies / TvShows</title>
-    <link>https://thelab.ratpack.appboxes.co/text/test/requests.xml</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <link>https://Th3L48.github.io/TheLab/text/test/requests.xml</link>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 </xml>

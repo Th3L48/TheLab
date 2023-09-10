@@ -7,57 +7,57 @@
 <dir>
     <title>Pluto Tv (USA)</title>
     <link>https://i.mjh.nz/PlutoTV/us.m3u8</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>SamSung Tv (USA)</title>
     <link>https://i.mjh.nz/SamsungTVPlus/us.m3u8</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>Stirr</title>
     <link>https://i.mjh.nz/Stirr/all.m3u8</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>PBS</title>
     <link>https://i.mjh.nz/PBS/all.m3u8</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>FluxUsTV (USA)</title>
     <link>https://bit.ly/FTV-ENG</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir>
     <title>FluxUsTV (ES)</title>
     <link>https://bit.ly/FTV-ESP</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir>
 
 <dir >
     <title>24/7 Tv Shows</title>
     <link>https://raw.githubusercontent.com/techecoyote/LooNaticsAsylum/master/text/m3u/247.m3u</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir >
 
 <dir >
     <title>Parody Movies</title>
     <link>https://raw.githubusercontent.com/techecoyote/LooNaticsAsylum/master/text/porn/BWPARODY.xml</link>
-    <thumbnail>https://thelab.ratpack.appboxes.co/text/m3u/blank.png</thumbnail>
-    <fanart>https://thelab.ratpack.appboxes.co/text/m3u/blank.jpg</fanart>
+    <thumbnail>https://Th3L48.github.io/TheLab/text/m3u/blank.png</thumbnail>
+    <fanart>https://Th3L48.github.io/TheLab/text/m3u/blank.jpg</fanart>
 </dir >
 
 </xml>
